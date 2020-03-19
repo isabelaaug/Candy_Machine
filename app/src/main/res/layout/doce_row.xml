@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp">
+
+        <ImageView
+            android:id="@+id/item_imagem"
+            android:layout_width="118dp"
+            android:layout_height="118dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border_image"
+            android:cropToPadding="true"
+            android:foregroundTint="#542600"
+            android:padding="5dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/item_textonome"
+            android:layout_width="201dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/item_textodescricao"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@+id/item_imagem"
+            android:backgroundTint="#542600"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Nome"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_textodescricao"
+            android:layout_width="206dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/item_botaocomprar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/item_imagem"
+            android:backgroundTint="#542600"
+            android:text="Descrição"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/item_botaocomprar"
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/item_imagem"
+            android:backgroundTint="#542600"
+            android:text="Comprar"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp" />
+    </RelativeLayout>
+</LinearLayout>
