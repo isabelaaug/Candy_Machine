@@ -14,8 +14,8 @@ CANDY MACHINE
 
 ## Descrição do projeto :page_facing_up:
 
-Versão cliente do aplicativo, criado para conectar por meio de um servidor Firebase, os pedidos dos cliente ao gestor de uma máquina que produz doces como brigadeiro e beijinho.
 O projeto do curso de Automação Industrial que tinha como objetivo simular a automatização do processo de venda e produção de doces de uma máquina.
+Versão cliente do aplicativo, criado para conectar por meio de um servidor Firebase, os pedidos dos cliente ao gestor de uma máquina que produz doces como brigadeiro e beijinho.
 
 ## Funcionalidades :gear:
 
